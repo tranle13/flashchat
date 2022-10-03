@@ -1,11 +1,3 @@
-//
-//  MessageCell.swift
-//  Flash Chat iOS13
-//
-//  Created by Trân Lê on 10/1/22.
-//  Copyright © 2022 Angela Yu. All rights reserved.
-//
-
 import UIKit
 
 class MessageCell: UITableViewCell {
@@ -13,6 +5,7 @@ class MessageCell: UITableViewCell {
 	@IBOutlet weak var messageBubble: UIView!
 	@IBOutlet weak var label: UILabel!
 	@IBOutlet weak var rightImageView: UIImageView!
+	@IBOutlet weak var leftImageView: UIImageView!
 	
 	override func awakeFromNib() {
         super.awakeFromNib()
